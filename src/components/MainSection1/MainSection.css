@@ -1,0 +1,49 @@
+.h5one{
+  color: green;
+}
+
+.main__section__col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top:110px
+}
+
+
+.section1{
+  background-color: rgba(170, 233, 170, 0.1);
+
+}
+.trendy-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+.trendy-icon2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.row-bod{
+  /* border: 2px solid green; */
+  width: 70%;
+}
+
+.col-img{
+  width: 100%;
+  border-top-right-radius: 50%;
+
+}
+
+.col-style{
+  /* border: 2px solid red; */
+  border-top-right-radius: 50%;
+}
+

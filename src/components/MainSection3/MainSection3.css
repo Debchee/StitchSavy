@@ -1,0 +1,86 @@
+.Athena{
+  color:purple;
+}
+
+.Ath-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 20px;
+  border-radius: 10%;
+  
+}
+@media (max-width: 414px ) {
+  .Ath-col{
+    margin-bottom: 10px;
+  }
+}
+
+
+.Avast{
+  color:gold;
+
+}
+
+.Avast-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  border-radius: 10%;
+
+}
+
+
+.Expedia{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 20px;
+  border-radius: 10%;
+  border: none;
+
+}
+
+@media (max-width: 414px ) {
+  .Expedia{
+    margin-bottom: 10px;
+  }
+}
+
+.Appeal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 20px;
+  border-radius: 10%;
+  
+}
+
+@media (max-width: 414px ) {
+  .Appeal{
+    margin-bottom: 10px;
+  }
+}
+.Kingly{
+  color:brown;
+}
+
+.King-col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 20px;
+  border-radius: 10%;
+  border: none;
+}
+
+@media (max-width: 414px ) {
+  .King-col{
+    margin-bottom: 10px;
+  }
+}

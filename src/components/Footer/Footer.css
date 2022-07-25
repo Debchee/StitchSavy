@@ -1,0 +1,39 @@
+.footer{
+  background-color: rgba(170, 233, 170, 0.1);
+
+}
+
+.footer-brand{
+  color: black;
+}
+.footer-text1{
+  font-size: 12px;
+}
+
+.footer-text2{
+  font-size:12px;
+}
+
+.footer-text3{
+  font-size:12px;
+}
+
+.hr-style{
+  border:1px solid white
+}
+
+.footer-text4{
+  font-size:11px;
+}
+
+.footer-text5{
+  text-decoration: none;
+}
+
+.footer-botton{
+  text-transform: capitalize;
+}
+
+.footer-home{
+  font-size:12px;text-align:end;
+}

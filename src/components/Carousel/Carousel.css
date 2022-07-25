@@ -1,0 +1,8 @@
+.carousel__image{
+  height:600px;
+  object-fit:fill;
+}
+
+.carousel__caption > p{
+    cursor: pointer;
+}
