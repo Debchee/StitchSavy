@@ -1,0 +1,165 @@
+
+.first__card1{
+  margin-left:70px;
+  width: 20rem; 
+  position: relative;
+  border-radius: 10%;
+
+}
+
+.first__card1:hover{
+  cursor: pointer;
+  background-color: green;
+  width:20.5rem;
+  transition: all 100ms ease-out;
+
+}
+
+.first__card2{
+  margin-left:130px;
+  width: 30rem;
+  position:absolute;
+  height:15rem;
+  margin-top: -5rem;
+ 
+}
+
+.first__card2:hover{
+  cursor: pointer;
+  transition: all 100ms ease-out;
+  width:30.5rem;
+  background-color: rgb(229, 206, 147);
+}
+
+.first__card1:hover{
+  cursor: pointer;
+  background-color: green;
+  width:20.5rem;
+  transition: all 100ms ease-out;
+
+}
+
+@media (max-width:480px){
+  .first__card1{
+    margin-left:27px
+  }
+
+  .first__card2{
+    margin-left: 21px;
+    width:22rem;
+
+  }
+  .first__card2:hover{
+  width:23rem;
+
+  }
+
+}
+
+.second__card1{
+  width: 20rem;
+  position: relative;
+  margin-left: 630px;
+  margin-top: -30rem;
+}
+
+.second__card1:hover{
+  cursor: pointer;
+  background-color: green;
+  width:20.5rem;
+  transition: all 100ms ease-out;
+
+}
+.second__card2{
+  width: 30rem;
+  position: absolute;
+  height: 15rem;
+  margin-left:760px;
+  margin-top: -13rem;
+}
+
+.second__card2:hover{
+  cursor: pointer;
+  transition: all 100ms ease-out;
+  width:30.5rem;
+  background-color: rgb(229, 206, 147);
+}
+
+
+@media (max-width:480px){
+  .second__card1{
+    margin-left:21px;
+    margin-top:10px
+  }
+
+  .second__card2{
+    margin-left: 22px;
+    width:22rem;
+    margin-top:-5rem
+  }
+  .second__card2:hover{
+  width:23rem;
+
+  }
+
+}
+
+
+
+.Blog-writeup{
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.third__card1{
+  margin-left:690px;
+  width: 20rem; 
+  position: relative;
+  margin-top: 5rem;
+}
+
+.third__card2{
+  margin-left:290px;
+  width: 30rem;
+  position:absolute;
+  height:15rem;
+  margin-top: -15rem;
+  margin-bottom: 5rem;
+}
+
+.third__card1:hover{
+  cursor: pointer;
+  background-color: green;
+  width:20.5rem;
+  transition: all 100ms ease-out;
+
+}
+
+.third__card2:hover{
+  cursor: pointer;
+  transition: all 100ms ease-out;
+  width:30.5rem;
+  background-color: rgb(229, 206, 147);
+}
+
+@media (max-width:480px){
+  .third__card1{
+    margin-left:21px;
+    margin-top:10px;
+
+  }
+
+  .third__card2{
+    margin-left: 22px;
+    width:22rem;
+    margin-top:-5rem;
+
+
+  }
+  .third__card2:hover{
+  width:23rem;
+
+  }
+
+}

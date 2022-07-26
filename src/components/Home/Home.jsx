@@ -12,9 +12,9 @@ function Home() {
   return (
   <div>
     <MyReactBootstrapCarousel/>
-    <MainSection1/>
-    <MainSection3/>
-    <MainSection2/>
+    <MainSection1 />
+    <MainSection3 />
+    <MainSection2 />
     <MainSection4/>
     <Footer/>
 

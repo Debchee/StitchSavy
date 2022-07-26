@@ -3,6 +3,15 @@
   object-fit:fill;
 }
 
+@media (max-width:480px){
+  .carousel__image{
+    height:300px;
+    object-fit:fill;
+  }
+}
+
+
+
 .carousel__caption > p{
     cursor: pointer;
 }

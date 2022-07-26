@@ -90,12 +90,12 @@ function MainSection2() {
       </div> */}
 
       <div className='container mt-5'>
-      <div class="row ">
+      <div class="row row-one gy-2">
         <div class="col-md-8 col-bod" >
           <div class="pb-3">
             
           </div>
-          <div class="row">
+          <div class="row gx-2 gy-2 ">
             <div class="col-md-6 col-pic2" >
                 <div className='cont-overlay'><p className='Customize'>Customize your look</p></div>
                     <img src={Gridextra} alt='colpic2' className='colpic2'/>
@@ -104,7 +104,7 @@ function MainSection2() {
                 <div className='cont2-overlay'><p className='Customize'>Customize your look</p></div>
                   <img src={Grid4pic} alt='colpic3' className='colpic3'/>
             </div>
-            <div class="col-md-6 col-pic4" >
+            <div class="col-md-6 gx-2 col-pic4" >
                 <div className='cont3-overlay'><p className='Customize'>Customize your look</p></div>
                   <img src={Grid5pic} alt='colpic5' className='colpic4'/>
             </div>

@@ -11,7 +11,7 @@ import {Link} from 'react-router-dom';
 function App() {
   return (
     <>
-    
+    <div className='app'>
       <Navbar/>
       <Home />
 
@@ -26,6 +26,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         </Routes>
       </Router> */}
+      </div>
     </>
   );
 }
