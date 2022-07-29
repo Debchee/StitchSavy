@@ -3,9 +3,16 @@ import './MainSection.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import Colpic from '../../assets/SecondColPic2.jpg';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
+import { useEffect } from 'react';
+
 
 
 function MainSection1() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, [])
   return (
     <>
       <div className=" container  mt-5 main__section">
@@ -14,7 +21,7 @@ function MainSection1() {
       <div>
         <div class="container-fluid section1 text-center mt-5">
           <div class="row mx-5">
-            <div class="col-12 col-md-6 main__section__col">
+            <div data-aos='fade-right' class="col-12 col-md-6 main__section__col">
               <h5 className="fs-5 h5one"><small>LIVE FOR FASHION</small></h5>
               <h2 className='h2one fs-1 fw-bold'>Let's Create Your Own Style</h2>
               <p className='text-start'><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </em></p>

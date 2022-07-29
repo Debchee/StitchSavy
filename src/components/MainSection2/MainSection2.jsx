@@ -6,16 +6,24 @@ import Grid3pic from '../../assets/Gridpic7.png';
 import Grid4pic from '../../assets/Gridpic4.png';
 import Grid5pic from '../../assets/Gridpic5.png';
 import Grid6pic from '../../assets/Gridpic6.png';
-import Gridextra from '../../assets/Gridpic3.png'
+import Gridextra from '../../assets/Gridpic3.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Aos from 'aos';
+import { useEffect } from 'react';
+
 
 
 
 
 function MainSection2() {
+  useEffect(()=>{
+      Aos.init({duration:2000});
+  },[])
   return (
     <>
-
-      <div className="mt-5">
+     <div  data-aos='fade-up' className=''>
+      <div  className="mt-5">
         <h3 className="text-center"><em> Your Choice Designers</em></h3>
       </div>
       {/* <div className='container mt-5 section2'>
@@ -95,7 +103,7 @@ function MainSection2() {
           <div class="pb-3">
             
           </div>
-          <div class="row gx-2 gy-2 ">
+          <div data-aos='fade-right' class="row gx-2 gy-2 ">
             <div class="col-md-6 col-pic2" >
                 <div className='cont-overlay'><p className='Customize'>Customize your look</p></div>
                     <img src={Gridextra} alt='colpic2' className='colpic2'/>
@@ -115,12 +123,14 @@ function MainSection2() {
 
           </div>
         </div>
-        <div class="col-md-4 col-STYLE">
+        <div data-aos='fade-left' class="col-md-4 col-STYLE">
         <div className='cont5-overlay'><p className='customize'>Customize your look</p></div>
           <img src={Grid2pic} alt="colpic" className='colPic'/>
         </div>
       </div>
       </div>
+      </div>
+      
     </>
   )
 }
