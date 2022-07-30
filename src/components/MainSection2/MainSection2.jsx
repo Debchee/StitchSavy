@@ -98,13 +98,13 @@ function MainSection2() {
       </div> */}
 
       <div className='container mt-5'>
-      <div class="row row-one gy-2">
+      <div class="row row-one gy-4">
         <div class="col-md-8 col-bod" >
           <div class="pb-3">
             
           </div>
-          <div data-aos='fade-right' class="row gx-2 gy-2 ">
-            <div class="col-md-6 col-pic2" >
+          <div data-aos='fade-right' class="row gy-2">
+            <div class="col-md-6 col-pic2  " >
                 <div className='cont-overlay'><p className='Customize'>Customize your look</p></div>
                     <img src={Gridextra} alt='colpic2' className='colpic2'/>
                 </div>

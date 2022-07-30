@@ -18,8 +18,8 @@ function MyReactBootstrapCarousel() {
             alt="Image One"
           />
           <Carousel.Caption className="carousel__caption">
-            <h3>Your Customized Outfit At Your Finger Tips</h3>
-            <p>Checkout Looks that Impress</p>
+            <h3><em>Your Customized Outfit At Your Finger Tips</em></h3>
+            <p><em>Checkout Looks that Impress</em></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
@@ -29,8 +29,8 @@ function MyReactBootstrapCarousel() {
             alt="Image Two"
           />
           <Carousel.Caption>
-            <h3>Create Your Appeal</h3>
-            <p>Style beyond Borders</p>
+            <h3><em>Create Your Appeal</em></h3>
+            <p><em>Style beyond Borders</em></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
@@ -40,8 +40,8 @@ function MyReactBootstrapCarousel() {
             alt="Image three"
           />
           <Carousel.Caption>
-            <h3>Unisex Designs</h3>
-            <p>All Styles Covered</p>
+            <h3><em>Unisex Designs</em></h3>
+            <p><em>All Styles Covered</em></p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -15,7 +15,7 @@ function MainSection4() {
 
     <>
 
-      <div  data-aos='fade-down' class="container">
+      <div  data-aos='fade-up' class="container">
         <div class="row mb-5 mt-5">
           <div class="col-6  text-success fw-bold fs-4">
             <p className='Newsletter'>Newsletter and get updates<br /><span style={{ fontSize: '12px', fontWeight: 'lighter', color: 'black' }}>Sign up for
@@ -39,7 +39,7 @@ function MainSection4() {
 
 
       {/* <div> */}
-      <div data-aos='fade-up '><h3 className='text-center mb-5'><em>Blog Posts</em></h3></div>
+      <div data-aos='fade-right '><h3 className='text-center mb-5'><em>Blog Posts</em></h3></div>
 
       <div style={{ backgroundColor: 'rgb(246,253,246)' }}>
         <div  class="card first__card1" >
@@ -73,7 +73,7 @@ function MainSection4() {
         </div>
 
         <div  class="card third__card1" >
-          <img src={Pic3} class="card-img-top" alt="pic" />
+          <img src={Pic3} className="card-img-top pic-3" alt="pic" />
           {/* <div class="card-body"> */}
           {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
           {/* </div> */}
